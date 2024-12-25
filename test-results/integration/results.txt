@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="104" failures="0" time="106.697">
+  <testsuite name="Working with sounds" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:15:09" time="36.329" tests="9">
+    <testcase classname="Working with sounds Adding a sound through the library" name="Working with sounds Adding a sound through the library" time="9.641">
+    </testcase>
+    <testcase classname="Working with sounds Adding a sound by surprise button" name="Working with sounds Adding a sound by surprise button" time="3.093">
+    </testcase>
+    <testcase classname="Working with sounds Duplicating a sound" name="Working with sounds Duplicating a sound" time="2.995">
+    </testcase>
+    <testcase classname="Working with sounds Switching sprites with different numbers of sounds" name="Working with sounds Switching sprites with different numbers of sounds" time="8.04">
+    </testcase>
+    <testcase classname="Working with sounds Adding multiple sounds at the same time" name="Working with sounds Adding multiple sounds at the same time" time="3.197">
+    </testcase>
+    <testcase classname="Working with sounds Copy to new button adds a new sound" name="Working with sounds Copy to new button adds a new sound" time="2.12">
+    </testcase>
+    <testcase classname="Working with sounds Copy and pasting within a sound changes its duration" name="Working with sounds Copy and pasting within a sound changes its duration" time="1.921">
+    </testcase>
+    <testcase classname="Working with sounds Can copy a sound from a sprite and paste into a sound on the stage" name="Working with sounds Can copy a sound from a sprite and paste into a sound on the stage" time="2.154">
+    </testcase>
+    <testcase classname="Working with sounds Keyboard shortcuts" name="Working with sounds Keyboard shortcuts" time="2.408">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with the blocks" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:15:09" time="63.9" tests="14">
+    <testcase classname="Working with the blocks Blocks report when clicked in the toolbox" name="Working with the blocks Blocks report when clicked in the toolbox" time="6.138">
+    </testcase>
+    <testcase classname="Working with the blocks Switching sprites updates the block menus" name="Working with the blocks Switching sprites updates the block menus" time="4.627">
+    </testcase>
+    <testcase classname="Working with the blocks Creating variables" name="Working with the blocks Creating variables" time="5.834">
+    </testcase>
+    <testcase classname="Working with the blocks Creating a list" name="Working with the blocks Creating a list" time="4.497">
+    </testcase>
+    <testcase classname="Working with the blocks Custom procedures" name="Working with the blocks Custom procedures" time="3.018">
+    </testcase>
+    <testcase classname="Working with the blocks Adding an extension" name="Working with the blocks Adding an extension" time="3.257">
+    </testcase>
+    <testcase classname="Working with the blocks Record option from sound block menu opens sound recorder" name="Working with the blocks Record option from sound block menu opens sound recorder" time="4.108">
+    </testcase>
+    <testcase classname="Working with the blocks Renaming costume changes the default costume name in the toolbox" name="Working with the blocks Renaming costume changes the default costume name in the toolbox" time="3.716">
+    </testcase>
+    <testcase classname="Working with the blocks Renaming costume with a special character should not break toolbox" name="Working with the blocks Renaming costume with a special character should not break toolbox" time="4.389">
+    </testcase>
+    <testcase classname="Working with the blocks Adding costumes DOES update the default costume name in the toolbox" name="Working with the blocks Adding costumes DOES update the default costume name in the toolbox" time="4.286">
+    </testcase>
+    <testcase classname="Working with the blocks Adding a sound DOES update the default sound name in the toolbox" name="Working with the blocks Adding a sound DOES update the default sound name in the toolbox" time="3.588">
+    </testcase>
+    <testcase classname="Working with the blocks &quot;See inside&quot; after being on project page re-initializing variables" name="Working with the blocks &quot;See inside&quot; after being on project page re-initializing variables" time="5.887">
+    </testcase>
+    <testcase classname="Working with the blocks Creating variables after adding extensions updates the toolbox" name="Working with the blocks Creating variables after adding extensions updates the toolbox" time="4.308">
+    </testcase>
+    <testcase classname="Working with the blocks Use variable blocks after switching languages" name="Working with the blocks Use variable blocks after switching languages" time="5.273">
+    </testcase>
+  </testsuite>
+  <testsuite name="Menu bar settings" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:15:45" time="32.171" tests="13">
+    <testcase classname="Menu bar settings File-&gt;New should be enabled" name="Menu bar settings File-&gt;New should be enabled" time="4.637">
+    </testcase>
+    <testcase classname="Menu bar settings File-&gt;Load should be enabled" name="Menu bar settings File-&gt;Load should be enabled" time="1.816">
+    </testcase>
+    <testcase classname="Menu bar settings File-&gt;Save should be enabled" name="Menu bar settings File-&gt;Save should be enabled" time="1.302">
+    </testcase>
+    <testcase classname="Menu bar settings Share button should NOT be enabled" name="Menu bar settings Share button should NOT be enabled" time="1.61">
+    </testcase>
+    <testcase classname="Menu bar settings Logo should be clickable" name="Menu bar settings Logo should be clickable" time="3.214">
+    </testcase>
+    <testcase classname="Menu bar settings (GH#4064) Project name should be editable" name="Menu bar settings (GH#4064) Project name should be editable" time="4.094">
+    </testcase>
+    <testcase classname="Menu bar settings User is not warned before uploading project file over a fresh project" name="Menu bar settings User is not warned before uploading project file over a fresh project" time="2.516">
+    </testcase>
+    <testcase classname="Menu bar settings User is warned before uploading project file over an edited project" name="Menu bar settings User is warned before uploading project file over an edited project" time="3.089">
+    </testcase>
+    <testcase classname="Menu bar settings Theme picker shows themes" name="Menu bar settings Theme picker shows themes" time="1.924">
+    </testcase>
+    <testcase classname="Menu bar settings Theme picker switches to high contrast" name="Menu bar settings Theme picker switches to high contrast" time="2.014">
+    </testcase>
+    <testcase classname="Menu bar settings Settings menu switches between submenus" name="Menu bar settings Settings menu switches between submenus" time="2.131">
+    </testcase>
+    <testcase classname="Menu bar settings Menu labels hidden when width is equal to 1024" name="Menu bar settings Menu labels hidden when width is equal to 1024" time="1.523">
+    </testcase>
+    <testcase classname="Menu bar settings Menu labels shown when width is greater than 1024" name="Menu bar settings Menu labels shown when width is greater than 1024" time="1.931">
+    </testcase>
+  </testsuite>
+  <testsuite name="Loading scratch gui" errors="0" failures="0" skipped="4" timestamp="2024-12-24T08:16:17" time="6.55" tests="6">
+    <testcase classname="Loading scratch gui Loading projects by ID Nonexistent projects show error screen" name="Loading scratch gui Loading projects by ID Nonexistent projects show error screen" time="3.987">
+    </testcase>
+    <testcase classname="Loading scratch gui Loading projects by ID Load a project by ID directly through url" name="Loading scratch gui Loading projects by ID Load a project by ID directly through url" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Loading scratch gui Loading projects by ID Load a project by ID (fullscreen)" name="Loading scratch gui Loading projects by ID Load a project by ID (fullscreen)" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Loading scratch gui Loading projects by ID Creating new project resets active tab to Code tab" name="Loading scratch gui Loading projects by ID Creating new project resets active tab to Code tab" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Loading scratch gui Loading projects by ID Not logged in-&gt;made no changes to project-&gt;create new project should not show alert" name="Loading scratch gui Loading projects by ID Not logged in-&gt;made no changes to project-&gt;create new project should not show alert" time="2.361">
+    </testcase>
+    <testcase classname="Loading scratch gui Loading projects by ID Not logged in-&gt;made a change to project-&gt;create new project should show alert" name="Loading scratch gui Loading projects by ID Not logged in-&gt;made a change to project-&gt;create new project should show alert" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with sprites" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:15:09" time="81.952" tests="19">
+    <testcase classname="Working with sprites Adding a sprite through the library" name="Working with sprites Adding a sprite through the library" time="11.331">
+    </testcase>
+    <testcase classname="Working with sprites Adding a sprite by surprise button" name="Working with sprites Adding a sprite by surprise button" time="3.008">
+    </testcase>
+    <testcase classname="Working with sprites Adding a sprite by paint button" name="Working with sprites Adding a sprite by paint button" time="2.483">
+    </testcase>
+    <testcase classname="Working with sprites Deleting only sprite does not crash" name="Working with sprites Deleting only sprite does not crash" time="3.245">
+    </testcase>
+    <testcase classname="Working with sprites Deleting by x button on sprite tile" name="Working with sprites Deleting by x button on sprite tile" time="2.882">
+    </testcase>
+    <testcase classname="Working with sprites Adding a sprite by uploading a png" name="Working with sprites Adding a sprite by uploading a png" time="2.777">
+    </testcase>
+    <testcase classname="Working with sprites Adding a sprite by uploading an svg (gh-3608)" name="Working with sprites Adding a sprite by uploading an svg (gh-3608)" time="2.914">
+    </testcase>
+    <testcase classname="Working with sprites Adding a sprite by uploading a gif" name="Working with sprites Adding a sprite by uploading a gif" time="2.831">
+    </testcase>
+    <testcase classname="Working with sprites Adding a letter sprite through the Letters filter in the library" name="Working with sprites Adding a letter sprite through the Letters filter in the library" time="6.94">
+    </testcase>
+    <testcase classname="Working with sprites Use browser back button to close library" name="Working with sprites Use browser back button to close library" time="7.717">
+    </testcase>
+    <testcase classname="Working with sprites Adding multiple sprites at the same time" name="Working with sprites Adding multiple sprites at the same time" time="3.51">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite3 with a missing svg costume" name="Working with sprites Load a sprite3 with a missing svg costume" time="5.707">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite3 with a currupt svg costume" name="Working with sprites Load a sprite3 with a currupt svg costume" time="3.282">
+    </testcase>
+    <testcase classname="Working with sprites Load a scratch3 corrupt svg as a sprite" name="Working with sprites Load a scratch3 corrupt svg as a sprite" time="2.687">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite2 with a missing svg costume" name="Working with sprites Load a sprite2 with a missing svg costume" time="5.375">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite2 with a currupt svg costume" name="Working with sprites Load a sprite2 with a currupt svg costume" time="2.826">
+    </testcase>
+    <testcase classname="Working with sprites Load a corrupt scratch2 svg as a sprite" name="Working with sprites Load a corrupt scratch2 svg as a sprite" time="2.831">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite3 with a missing bmp costume" name="Working with sprites Load a sprite3 with a missing bmp costume" time="5.648">
+    </testcase>
+    <testcase classname="Working with sprites Load a sprite3 with a currupt bmp costume" name="Working with sprites Load a sprite3 with a currupt bmp costume" time="2.986">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with costumes" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:15:09" time="87.968" tests="15">
+    <testcase classname="Working with costumes Adding a costume through the library" name="Working with costumes Adding a costume through the library" time="23.019">
+    </testcase>
+    <testcase classname="Working with costumes Adding a costume by surprise button" name="Working with costumes Adding a costume by surprise button" time="3.984">
+    </testcase>
+    <testcase classname="Working with costumes Adding a costume by paint button" name="Working with costumes Adding a costume by paint button" time="3.031">
+    </testcase>
+    <testcase classname="Working with costumes Duplicating a costume" name="Working with costumes Duplicating a costume" time="3.156">
+    </testcase>
+    <testcase classname="Working with costumes Converting bitmap/vector in paint editor" name="Working with costumes Converting bitmap/vector in paint editor" time="4.038">
+    </testcase>
+    <testcase classname="Working with costumes Undo/redo in the paint editor" name="Working with costumes Undo/redo in the paint editor" time="3.249">
+    </testcase>
+    <testcase classname="Working with costumes Adding an svg from file" name="Working with costumes Adding an svg from file" time="3.188">
+    </testcase>
+    <testcase classname="Working with costumes Adding a png from file (gh-3582)" name="Working with costumes Adding a png from file (gh-3582)" time="2.905">
+    </testcase>
+    <testcase classname="Working with costumes Adding a bmp from file" name="Working with costumes Adding a bmp from file" time="2.8">
+    </testcase>
+    <testcase classname="Working with costumes Adding several costumes with a gif" name="Working with costumes Adding several costumes with a gif" time="2.777">
+    </testcase>
+    <testcase classname="Working with costumes Adding a letter costume through the Letters filter in the library" name="Working with costumes Adding a letter costume through the Letters filter in the library" time="18.12">
+    </testcase>
+    <testcase classname="Working with costumes Costumes animate on mouseover" name="Working with costumes Costumes animate on mouseover" time="7.55">
+    </testcase>
+    <testcase classname="Working with costumes Adding multiple costumes at the same time" name="Working with costumes Adding multiple costumes at the same time" time="3.926">
+    </testcase>
+    <testcase classname="Working with costumes Load an invalid svg from scratch3 as costume" name="Working with costumes Load an invalid svg from scratch3 as costume" time="2.805">
+    </testcase>
+    <testcase classname="Working with costumes Load an invalid svg from scratch2 as costume" name="Working with costumes Load an invalid svg from scratch2 as costume" time="2.5">
+    </testcase>
+  </testsuite>
+  <testsuite name="player example" errors="0" failures="0" skipped="3" timestamp="2024-12-24T08:16:37" time="1.493" tests="3">
+    <testcase classname="player example Player: load a project by ID" name="player example Player: load a project by ID" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="blocks example Blocks: load a project by ID" name="blocks example Blocks: load a project by ID" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="blocks example Change categories" name="blocks example Change categories" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Loading scratch gui" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:13" time="26.906" tests="8">
+    <testcase classname="Loading scratch gui Loading project file from computer succeeds, without opening failure alert" name="Loading scratch gui Loading project file from computer succeeds, without opening failure alert" time="5.149">
+    </testcase>
+    <testcase classname="Loading scratch gui Loading project file from computer gives project the filename from file" name="Loading scratch gui Loading project file from computer gives project the filename from file" time="1.924">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb3 project with a missing svg costume" name="Loading scratch gui Load sb3 project with a missing svg costume" time="4.682">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb3 project with an invalid svg costume" name="Loading scratch gui Load sb3 project with an invalid svg costume" time="1.751">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb2 project with a missing svg costume" name="Loading scratch gui Load sb2 project with a missing svg costume" time="4.58">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb2 project with an invalid svg costume" name="Loading scratch gui Load sb2 project with an invalid svg costume" time="2.003">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb3 project with a missing bmp costume" name="Loading scratch gui Load sb3 project with a missing bmp costume" time="4.38">
+    </testcase>
+    <testcase classname="Loading scratch gui Load sb3 project with an invalid bmp costume" name="Loading scratch gui Load sb3 project with an invalid bmp costume" time="2.131">
+    </testcase>
+  </testsuite>
+  <testsuite name="Project state" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:40" time="6.298" tests="1">
+    <testcase classname="Project state File-&gt;New resets project title" name="Project state File-&gt;New resets project title" time="6.143">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with backdrops" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:31" time="15.301" tests="4">
+    <testcase classname="Working with backdrops Adding a backdrop from the library should not switch to stage" name="Working with backdrops Adding a backdrop from the library should not switch to stage" time="7.315">
+    </testcase>
+    <testcase classname="Working with backdrops Adding backdrop via paint should switch to stage" name="Working with backdrops Adding backdrop via paint should switch to stage" time="2.488">
+    </testcase>
+    <testcase classname="Working with backdrops Adding backdrop via surprise should not switch to stage" name="Working with backdrops Adding backdrop via surprise should not switch to stage" time="2.396">
+    </testcase>
+    <testcase classname="Working with backdrops Adding multiple backdrops from file should switch to stage" name="Working with backdrops Adding multiple backdrops from file should switch to stage" time="2.592">
+    </testcase>
+  </testsuite>
+  <testsuite name="Localization" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:24" time="23.524" tests="4">
+    <testcase classname="Localization Switching languages" name="Localization Switching languages" time="12.285">
+    </testcase>
+    <testcase classname="Localization Loading with locale shows correct blocks" name="Localization Loading with locale shows correct blocks" time="3.476">
+    </testcase>
+    <testcase classname="Localization Loading with locale shows correct translation for string length block parameter" name="Localization Loading with locale shows correct translation for string length block parameter" time="4.003">
+    </testcase>
+    <testcase classname="Localization Monitor labels update on locale change" name="Localization Monitor labels update on locale change" time="3.618">
+    </testcase>
+  </testsuite>
+  <testsuite name="Hardware extension connection modal" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:38" time="9.502" tests="2">
+    <testcase classname="Hardware extension connection modal Message saying Scratch Link is unavailable (BLE)" name="Hardware extension connection modal Message saying Scratch Link is unavailable (BLE)" time="6.136">
+    </testcase>
+    <testcase classname="Hardware extension connection modal Message saying Scratch Link is unavailable (BT)" name="Hardware extension connection modal Message saying Scratch Link is unavailable (BT)" time="3.134">
+    </testcase>
+  </testsuite>
+  <testsuite name="Loading scratch gui" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:46" time="5.94" tests="1">
+    <testcase classname="Loading scratch gui Switching small/large stage after highlighting and deleting sprite" name="Loading scratch gui Switching small/large stage after highlighting and deleting sprite" time="5.787">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with the how-to library" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:46" time="6.716" tests="2">
+    <testcase classname="Working with the how-to library Backpack is &quot;Coming Soon&quot; without backpack host param" name="Working with the how-to library Backpack is &quot;Coming Soon&quot; without backpack host param" time="4.445">
+    </testcase>
+    <testcase classname="Working with the how-to library Backpack can be expanded with backpack host param" name="Working with the how-to library Backpack can be expanded with backpack host param" time="2.067">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with the how-to library" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:48" time="5.022" tests="1">
+    <testcase classname="Working with the how-to library Choosing a how-to" name="Working with the how-to library Choosing a how-to" time="4.881">
+    </testcase>
+  </testsuite>
+  <testsuite name="Working with shortcut to Tutorials library" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:16:48" time="5.981" tests="2">
+    <testcase classname="Working with shortcut to Tutorials library opens with the Tutorial Library showing" name="Working with shortcut to Tutorials library opens with the Tutorial Library showing" time="4.69">
+    </testcase>
+    <testcase classname="Working with shortcut to Tutorials library can open hidden tutorials" name="Working with shortcut to Tutorials library can open hidden tutorials" time="1.138">
+    </testcase>
+  </testsuite>
+</testsuites>

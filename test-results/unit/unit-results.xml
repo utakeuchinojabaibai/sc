@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="290" failures="0" time="8.163">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:40" time="0.621" tests="39">
+    <testcase classname=" initialState" name=" initialState" time="0.003">
+    </testcase>
+    <testcase classname=" doneCreatingProject for new project with projectId type string shows project with that id" name=" doneCreatingProject for new project with projectId type string shows project with that id" time="0">
+    </testcase>
+    <testcase classname=" doneCreatingProject for new project with projectId type number shows project with id of type number" name=" doneCreatingProject for new project with projectId type number shows project with id of type number" time="0.001">
+    </testcase>
+    <testcase classname=" doneCreatingProject for remix shows project with that id" name=" doneCreatingProject for remix shows project with that id" time="0">
+    </testcase>
+    <testcase classname=" doneCreatingProject for save as copy shows project with that id" name=" doneCreatingProject for save as copy shows project with that id" time="0">
+    </testcase>
+    <testcase classname=" onFetchedProjectData with id loads project data into vm" name=" onFetchedProjectData with id loads project data into vm" time="0.001">
+    </testcase>
+    <testcase classname=" onFetchedProjectData new loads project data into vm" name=" onFetchedProjectData new loads project data into vm" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_WITH_ID, true, true) results in state SHOWING_WITH_ID" name=" onLoadedProject(LOADING_VM_WITH_ID, true, true) results in state SHOWING_WITH_ID" time="0.001">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_WITH_ID, false, true) results in state SHOWING_WITH_ID" name=" onLoadedProject(LOADING_VM_WITH_ID, false, true) results in state SHOWING_WITH_ID" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_WITH_ID, false, false), with project id, results in state SHOWING_WITH_ID" name=" onLoadedProject(LOADING_VM_WITH_ID, false, false), with project id, results in state SHOWING_WITH_ID" time="0.001">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_WITH_ID, false, false), with no project id, results in state SHOWING_WITHOUT_ID" name=" onLoadedProject(LOADING_VM_WITH_ID, false, false), with no project id, results in state SHOWING_WITHOUT_ID" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_FILE_UPLOAD, true, true) prepares to save" name=" onLoadedProject(LOADING_VM_FILE_UPLOAD, true, true) prepares to save" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, true) results in state SHOWING_WITHOUT_ID" name=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, true) results in state SHOWING_WITHOUT_ID" time="0.001">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, false), when we know project id, results in state SHOWING_WITH_ID" name=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, false), when we know project id, results in state SHOWING_WITH_ID" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, false), when we don&apos;t know project id, results in state SHOWING_WITHOUT_ID" name=" onLoadedProject(LOADING_VM_FILE_UPLOAD, false, false), when we don&apos;t know project id, results in state SHOWING_WITHOUT_ID" time="0.001">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_NEW_DEFAULT, true, true) results in state SHOWING_WITHOUT_ID" name=" onLoadedProject(LOADING_VM_NEW_DEFAULT, true, true) results in state SHOWING_WITHOUT_ID" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_NEW_DEFAULT, false, true) results in state SHOWING_WITHOUT_ID" name=" onLoadedProject(LOADING_VM_NEW_DEFAULT, false, true) results in state SHOWING_WITHOUT_ID" time="0">
+    </testcase>
+    <testcase classname=" onLoadedProject(LOADING_VM_NEW_DEFAULT, false, false) results in ERROR state" name=" onLoadedProject(LOADING_VM_NEW_DEFAULT, false, false) results in ERROR state" time="0">
+    </testcase>
+    <testcase classname=" doneUpdatingProject with id results in state SHOWING_WITH_ID" name=" doneUpdatingProject with id results in state SHOWING_WITH_ID" time="0.001">
+    </testcase>
+    <testcase classname=" doneUpdatingProject with id, before copy occurs, results in state CREATING_COPY" name=" doneUpdatingProject with id, before copy occurs, results in state CREATING_COPY" time="0">
+    </testcase>
+    <testcase classname=" doneUpdatingProject with id, before new, results in state FETCHING_NEW_DEFAULT" name=" doneUpdatingProject with id, before new, results in state FETCHING_NEW_DEFAULT" time="0">
+    </testcase>
+    <testcase classname=" calling setProjectId, using with same id as already showing, results in state SHOWING_WITH_ID" name=" calling setProjectId, using with same id as already showing, results in state SHOWING_WITH_ID" time="0">
+    </testcase>
+    <testcase classname=" calling setProjectId, using different id from project already showing, results in state FETCHING_WITH_ID" name=" calling setProjectId, using different id from project already showing, results in state FETCHING_WITH_ID" time="0">
+    </testcase>
+    <testcase classname=" setProjectId, with same id as before, but not same type, results in FETCHING_WITH_ID because the two projectIds are not strictly equal" name=" setProjectId, with same id as before, but not same type, results in FETCHING_WITH_ID because the two projectIds are not strictly equal" time="0">
+    </testcase>
+    <testcase classname=" requestNewProject, when can&apos;t create/save, results in FETCHING_NEW_DEFAULT" name=" requestNewProject, when can&apos;t create/save, results in FETCHING_NEW_DEFAULT" time="0">
+    </testcase>
+    <testcase classname=" requestNewProject, when can create/save, results in UPDATING_BEFORE_NEW (in order to save before fetching default project)" name=" requestNewProject, when can create/save, results in UPDATING_BEFORE_NEW (in order to save before fetching default project)" time="0.001">
+    </testcase>
+    <testcase classname=" requestProjectUpload when project not loaded results in state LOADING_VM_FILE_UPLOAD" name=" requestProjectUpload when project not loaded results in state LOADING_VM_FILE_UPLOAD" time="0">
+    </testcase>
+    <testcase classname=" requestProjectUpload when showing project with id results in state LOADING_VM_FILE_UPLOAD" name=" requestProjectUpload when showing project with id results in state LOADING_VM_FILE_UPLOAD" time="0">
+    </testcase>
+    <testcase classname=" requestProjectUpload when showing project without id results in state LOADING_VM_FILE_UPLOAD" name=" requestProjectUpload when showing project without id results in state LOADING_VM_FILE_UPLOAD" time="0">
+    </testcase>
+    <testcase classname=" manualUpdateProject should prepare to update" name=" manualUpdateProject should prepare to update" time="0">
+    </testcase>
+    <testcase classname=" autoUpdateProject should prepare to update" name=" autoUpdateProject should prepare to update" time="0">
+    </testcase>
+    <testcase classname=" saveProjectAsCopy should save, before preparing to save as a copy" name=" saveProjectAsCopy should save, before preparing to save as a copy" time="0.001">
+    </testcase>
+    <testcase classname=" remixProject should prepare to remix" name=" remixProject should prepare to remix" time="0">
+    </testcase>
+    <testcase classname=" projectError from various states should show error" name=" projectError from various states should show error" time="0.001">
+    </testcase>
+    <testcase classname=" fatal projectError should show error state" name=" fatal projectError should show error state" time="0">
+    </testcase>
+    <testcase classname=" non-fatal projectError should show normal state" name=" non-fatal projectError should show normal state" time="0.001">
+    </testcase>
+    <testcase classname=" projectError when creating new while viewing project with id should go back to state SHOWING_WITH_ID" name=" projectError when creating new while viewing project with id should go back to state SHOWING_WITH_ID" time="0">
+    </testcase>
+    <testcase classname=" projectError when creating new while logged out, looking at default project should go back to state SHOWING_WITHOUT_ID" name=" projectError when creating new while logged out, looking at default project should go back to state SHOWING_WITHOUT_ID" time="0">
+    </testcase>
+    <testcase classname=" projectError encountered while in state FETCHING_WITH_ID results in ERROR state" name=" projectError encountered while in state FETCHING_WITH_ID results in ERROR state" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="CloudManagerHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:41" time="0.854" tests="15">
+    <testcase classname="CloudManagerHOC when it mounts, the cloud provider is set on the vm" name="CloudManagerHOC when it mounts, the cloud provider is set on the vm" time="0.04">
+    </testcase>
+    <testcase classname="CloudManagerHOC when cloudHost is missing, the cloud provider is not set on the vm" name="CloudManagerHOC when cloudHost is missing, the cloud provider is not set on the vm" time="0.005">
+    </testcase>
+    <testcase classname="CloudManagerHOC when projectID is missing, the cloud provider is not set on the vm" name="CloudManagerHOC when projectID is missing, the cloud provider is not set on the vm" time="0.007">
+    </testcase>
+    <testcase classname="CloudManagerHOC when project is not showingWithId, the cloud provider is not set on the vm" name="CloudManagerHOC when project is not showingWithId, the cloud provider is not set on the vm" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC when hasCloudPermission is false, the cloud provider is not set on the vm" name="CloudManagerHOC when hasCloudPermission is false, the cloud provider is not set on the vm" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC when videoSensing extension is active, the cloud provider is not set on the vm" name="CloudManagerHOC when videoSensing extension is active, the cloud provider is not set on the vm" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC if the isShowingWithId prop becomes true, it sets the cloud provider on the vm" name="CloudManagerHOC if the isShowingWithId prop becomes true, it sets the cloud provider on the vm" time="0.003">
+    </testcase>
+    <testcase classname="CloudManagerHOC projectId change should not trigger cloudProvider connection unless isShowingWithId becomes true" name="CloudManagerHOC projectId change should not trigger cloudProvider connection unless isShowingWithId becomes true" time="0.003">
+    </testcase>
+    <testcase classname="CloudManagerHOC when it unmounts, the cloud provider is reset to null on the vm" name="CloudManagerHOC when it unmounts, the cloud provider is reset to null on the vm" time="0.004">
+    </testcase>
+    <testcase classname="CloudManagerHOC projectId changing should trigger cloudProvider disconnection" name="CloudManagerHOC projectId changing should trigger cloudProvider disconnection" time="0.003">
+    </testcase>
+    <testcase classname="CloudManagerHOC username changing should trigger cloudProvider disconnection" name="CloudManagerHOC username changing should trigger cloudProvider disconnection" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC project without cloud data should not trigger cloud connection" name="CloudManagerHOC project without cloud data should not trigger cloud connection" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC projectHasCloudData becoming true should trigger a cloud connection" name="CloudManagerHOC projectHasCloudData becoming true should trigger a cloud connection" time="0.001">
+    </testcase>
+    <testcase classname="CloudManagerHOC projectHasCloudDataUpdate becoming false should trigger cloudProvider disconnection" name="CloudManagerHOC projectHasCloudDataUpdate becoming false should trigger cloudProvider disconnection" time="0.002">
+    </testcase>
+    <testcase classname="CloudManagerHOC Entering editor mode and can&apos;t save project should disconnect cloud provider" name="CloudManagerHOC Entering editor mode and can&apos;t save project should disconnect cloud provider" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="projectSaverHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:40" time="1.583" tests="18">
+    <testcase classname="projectSaverHOC if canSave becomes true when showing a project with an id, project will be saved" name="projectSaverHOC if canSave becomes true when showing a project with an id, project will be saved" time="0.046">
+    </testcase>
+    <testcase classname="projectSaverHOC if canSave is already true and we show a project with an id, project will NOT be saved" name="projectSaverHOC if canSave is already true and we show a project with an id, project will NOT be saved" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC if canSave is false when showing a project without an id, project will NOT be created" name="projectSaverHOC if canSave is false when showing a project without an id, project will NOT be created" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC if canCreateNew becomes true when showing a project without an id, project will be created" name="projectSaverHOC if canCreateNew becomes true when showing a project without an id, project will be created" time="0.002">
+    </testcase>
+    <testcase classname="projectSaverHOC if canCreateNew is true and we transition to showing new project, project will be created" name="projectSaverHOC if canCreateNew is true and we transition to showing new project, project will be created" time="0.004">
+    </testcase>
+    <testcase classname="projectSaverHOC if we enter creating new state, vm project should be requested" name="projectSaverHOC if we enter creating new state, vm project should be requested" time="0.004">
+    </testcase>
+    <testcase classname="projectSaverHOC if we enter remixing state, vm project should be requested, and alert should show" name="projectSaverHOC if we enter remixing state, vm project should be requested, and alert should show" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC if we enter creating copy state, vm project should be requested, and alert should show" name="projectSaverHOC if we enter creating copy state, vm project should be requested, and alert should show" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC if we enter updating/saving state, vm project should be requested" name="projectSaverHOC if we enter updating/saving state, vm project should be requested" time="0.004">
+    </testcase>
+    <testcase classname="projectSaverHOC if we are already in updating/saving state, vm project should NOT requested, alert should NOT show" name="projectSaverHOC if we are already in updating/saving state, vm project should NOT requested, alert should NOT show" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC if user saves, inline saving alert should show" name="projectSaverHOC if user saves, inline saving alert should show" time="0.009">
+    </testcase>
+    <testcase classname="projectSaverHOC if project is changed, it should autosave after interval" name="projectSaverHOC if project is changed, it should autosave after interval" time="0.002">
+    </testcase>
+    <testcase classname="projectSaverHOC if project is changed several times in a row, it should only autosave once" name="projectSaverHOC if project is changed several times in a row, it should only autosave once" time="0.004">
+    </testcase>
+    <testcase classname="projectSaverHOC if project is not changed, it should not autosave after interval" name="projectSaverHOC if project is not changed, it should not autosave after interval" time="0.003">
+    </testcase>
+    <testcase classname="projectSaverHOC when starting to remix, onRemixing should be called with param true" name="projectSaverHOC when starting to remix, onRemixing should be called with param true" time="0.004">
+    </testcase>
+    <testcase classname="projectSaverHOC when starting to remix, onRemixing should be called with param false" name="projectSaverHOC when starting to remix, onRemixing should be called with param false" time="0.002">
+    </testcase>
+    <testcase classname="projectSaverHOC uses onSetProjectThumbnailer on mount/unmount" name="projectSaverHOC uses onSetProjectThumbnailer on mount/unmount" time="0.012">
+    </testcase>
+    <testcase classname="projectSaverHOC uses onSetProjectSaver on mount/unmount" name="projectSaverHOC uses onSetProjectSaver on mount/unmount" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:42" time="0.178" tests="16">
+    <testcase classname=" initialState" name=" initialState" time="0.001">
+    </testcase>
+    <testcase classname=" addMonitorRect" name=" addMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" addMonitorRectWithSavedPosition" name=" addMonitorRectWithSavedPosition" time="0.001">
+    </testcase>
+    <testcase classname=" invalidRect" name=" invalidRect" time="0">
+    </testcase>
+    <testcase classname=" invalidAddMonitorRect" name=" invalidAddMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" moveMonitorRect" name=" moveMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" invalidMoveMonitorRect" name=" invalidMoveMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" resizeMonitorRect" name=" resizeMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" invalidResizeMonitorRect" name=" invalidResizeMonitorRect" time="0">
+    </testcase>
+    <testcase classname=" removeMonitorRect" name=" removeMonitorRect" time="0.001">
+    </testcase>
+    <testcase classname=" invalidRemoveMonitorRect" name=" invalidRemoveMonitorRect" time="0">
+    </testcase>
+    <testcase classname=" getInitialPosition_lineUpTopLeft" name=" getInitialPosition_lineUpTopLeft" time="0.001">
+    </testcase>
+    <testcase classname=" getInitialPosition_savedPosition" name=" getInitialPosition_savedPosition" time="0">
+    </testcase>
+    <testcase classname=" getInitialPosition_lineUpLeft" name=" getInitialPosition_lineUpLeft" time="0.001">
+    </testcase>
+    <testcase classname=" getInitialPosition_lineUpTop" name=" getInitialPosition_lineUpTop" time="0">
+    </testcase>
+    <testcase classname=" getInitialPosition_noRoom" name=" getInitialPosition_noRoom" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="defineDynamicBlock" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:42" time="0.158" tests="7">
+    <testcase classname="defineDynamicBlock is a function" name="defineDynamicBlock is a function" time="0.001">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a command block with an icon" name="defineDynamicBlock can define a command block with an icon" time="0.002">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a command block without an icon" name="defineDynamicBlock can define a command block without an icon" time="0">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a terminal command" name="defineDynamicBlock can define a terminal command" time="0">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a reporter" name="defineDynamicBlock can define a reporter" time="0">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a Boolean" name="defineDynamicBlock can define a Boolean" time="0">
+    </testcase>
+    <testcase classname="defineDynamicBlock can define a hat" name="defineDynamicBlock can define a hat" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="CloudProvider" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.155" tests="13">
+    <testcase classname="CloudProvider createVariable" name="CloudProvider createVariable" time="0.001">
+    </testcase>
+    <testcase classname="CloudProvider updateVariable" name="CloudProvider updateVariable" time="0">
+    </testcase>
+    <testcase classname="CloudProvider updateVariable with falsey value" name="CloudProvider updateVariable with falsey value" time="0.001">
+    </testcase>
+    <testcase classname="CloudProvider renameVariable" name="CloudProvider renameVariable" time="0">
+    </testcase>
+    <testcase classname="CloudProvider deleteVariable" name="CloudProvider deleteVariable" time="0.001">
+    </testcase>
+    <testcase classname="CloudProvider onMessage set" name="CloudProvider onMessage set" time="0">
+    </testcase>
+    <testcase classname="CloudProvider onMessage with newline at the end" name="CloudProvider onMessage with newline at the end" time="0">
+    </testcase>
+    <testcase classname="CloudProvider onMessage with multiple commands" name="CloudProvider onMessage with multiple commands" time="0.001">
+    </testcase>
+    <testcase classname="CloudProvider connnection attempts set back to 1 when socket is opened" name="CloudProvider connnection attempts set back to 1 when socket is opened" time="0">
+    </testcase>
+    <testcase classname="CloudProvider disconnect waits for a period equal to 2^k-1 before trying again" name="CloudProvider disconnect waits for a period equal to 2^k-1 before trying again" time="0.006">
+    </testcase>
+    <testcase classname="CloudProvider close after connection is opened waits 1s before reconnecting" name="CloudProvider close after connection is opened waits 1s before reconnecting" time="0.001">
+    </testcase>
+    <testcase classname="CloudProvider exponentialTimeout caps connection attempt number" name="CloudProvider exponentialTimeout caps connection attempt number" time="0">
+    </testcase>
+    <testcase classname="CloudProvider requestCloseConnection does not try to reconnect" name="CloudProvider requestCloseConnection does not try to reconnect" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="VMManagerHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.262" tests="8">
+    <testcase classname="VMManagerHOC when it mounts in player mode, the vm is initialized but not started" name="VMManagerHOC when it mounts in player mode, the vm is initialized but not started" time="0.016">
+    </testcase>
+    <testcase classname="VMManagerHOC when it mounts in editor mode, the vm is initialized and started" name="VMManagerHOC when it mounts in editor mode, the vm is initialized and started" time="0.003">
+    </testcase>
+    <testcase classname="VMManagerHOC if it mounts with an initialized vm, it does not reinitialize the vm but will start it" name="VMManagerHOC if it mounts with an initialized vm, it does not reinitialize the vm but will start it" time="0.003">
+    </testcase>
+    <testcase classname="VMManagerHOC if it mounts without starting the VM, it can be started by switching to editor mode" name="VMManagerHOC if it mounts without starting the VM, it can be started by switching to editor mode" time="0.003">
+    </testcase>
+    <testcase classname="VMManagerHOC if it mounts with an initialized and started VM, it does not start again" name="VMManagerHOC if it mounts with an initialized and started VM, it does not start again" time="0.002">
+    </testcase>
+    <testcase classname="VMManagerHOC if the isLoadingWithId prop becomes true, it loads project data into the vm" name="VMManagerHOC if the isLoadingWithId prop becomes true, it loads project data into the vm" time="0.004">
+    </testcase>
+    <testcase classname="VMManagerHOC if the fontsLoaded prop becomes true, it loads project data into the vm" name="VMManagerHOC if the fontsLoaded prop becomes true, it loads project data into the vm" time="0.002">
+    </testcase>
+    <testcase classname="VMManagerHOC if the fontsLoaded prop is false, project data is never loaded" name="VMManagerHOC if the fontsLoaded prop is false, project data is never loaded" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.083" tests="10">
+    <testcase classname=" initialState" name=" initialState" time="0.001">
+    </testcase>
+    <testcase classname=" create one standard alert" name=" create one standard alert" time="0.001">
+    </testcase>
+    <testcase classname=" add several standard alerts" name=" add several standard alerts" time="0">
+    </testcase>
+    <testcase classname=" create one inline alert message" name=" create one inline alert message" time="0.001">
+    </testcase>
+    <testcase classname=" can close alerts by index" name=" can close alerts by index" time="0.01">
+    </testcase>
+    <testcase classname=" can close a single alert by id" name=" can close a single alert by id" time="0">
+    </testcase>
+    <testcase classname=" related alerts can clear each other" name=" related alerts can clear each other" time="0.001">
+    </testcase>
+    <testcase classname=" several related alerts can be cleared at once" name=" several related alerts can be cleared at once" time="0">
+    </testcase>
+    <testcase classname=" filterInlineAlerts only returns inline type alerts" name=" filterInlineAlerts only returns inline type alerts" time="0">
+    </testcase>
+    <testcase classname=" filterPopupAlerts returns standard and extension type alerts" name=" filterPopupAlerts returns standard and extension type alerts" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Menu Bar HOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.115" tests="9">
+    <testcase classname="Menu Bar HOC Logged in user who IS owner and HAS changed project will NOT be prompted to save" name="Menu Bar HOC Logged in user who IS owner and HAS changed project will NOT be prompted to save" time="0.019">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who IS owner and has NOT changed project will NOT be prompted to save" name="Menu Bar HOC Logged in user who IS owner and has NOT changed project will NOT be prompted to save" time="0.002">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who is NOT owner and HAS changed project will NOT be prompted to save" name="Menu Bar HOC Logged in user who is NOT owner and HAS changed project will NOT be prompted to save" time="0.003">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged OUT user who HAS changed project WILL be prompted to save" name="Menu Bar HOC Logged OUT user who HAS changed project WILL be prompted to save" time="0.007">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged OUT user who has NOT changed project WILL NOT be prompted to save" name="Menu Bar HOC Logged OUT user who has NOT changed project WILL NOT be prompted to save" time="0.003">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who IS owner and HAS changed project SHOULD save before transition to project page" name="Menu Bar HOC Logged in user who IS owner and HAS changed project SHOULD save before transition to project page" time="0.004">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who IS owner and has NOT changed project should NOT save before transition" name="Menu Bar HOC Logged in user who IS owner and has NOT changed project should NOT save before transition" time="0.005">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who is NOT owner and HAS changed project should NOT save before transition" name="Menu Bar HOC Logged in user who is NOT owner and HAS changed project should NOT save before transition" time="0.008">
+    </testcase>
+    <testcase classname="Menu Bar HOC Logged in user who is NOT owner and has NOT changed project should NOT save before transition" name="Menu Bar HOC Logged in user who is NOT owner and has NOT changed project should NOT save before transition" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Sound Editor Container" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:42" time="1.251" tests="13">
+    <testcase classname="Sound Editor Container should pass the correct data to the component from the store" name="Sound Editor Container should pass the correct data to the component from the store" time="0.036">
+    </testcase>
+    <testcase classname="Sound Editor Container it plays when clicked and stops when clicked again" name="Sound Editor Container it plays when clicked and stops when clicked again" time="0.032">
+    </testcase>
+    <testcase classname="Sound Editor Container it submits name changes to the vm" name="Sound Editor Container it submits name changes to the vm" time="0.012">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles an effect by submitting the result and playing" name="Sound Editor Container it handles an effect by submitting the result and playing" time="0.018">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles reverse effect correctly" name="Sound Editor Container it handles reverse effect correctly" time="0.014">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles louder effect correctly" name="Sound Editor Container it handles louder effect correctly" time="0.018">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles softer effect correctly" name="Sound Editor Container it handles softer effect correctly" time="0.009">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles faster effect correctly" name="Sound Editor Container it handles faster effect correctly" time="0.008">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles slower effect correctly" name="Sound Editor Container it handles slower effect correctly" time="0.008">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles echo effect correctly" name="Sound Editor Container it handles echo effect correctly" time="0.012">
+    </testcase>
+    <testcase classname="Sound Editor Container it handles robot effect correctly" name="Sound Editor Container it handles robot effect correctly" time="0.012">
+    </testcase>
+    <testcase classname="Sound Editor Container undo/redo stack state" name="Sound Editor Container undo/redo stack state" time="0.053">
+    </testcase>
+    <testcase classname="Sound Editor Container undo and redo submit new samples and play the sound" name="Sound Editor Container undo and redo submit new samples and play the sound" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="VMListenerHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.277" tests="7">
+    <testcase classname="VMListenerHOC vm green flag event is bound to the passed in prop callback" name="VMListenerHOC vm green flag event is bound to the passed in prop callback" time="0.012">
+    </testcase>
+    <testcase classname="VMListenerHOC onGreenFlag is not passed to the children" name="VMListenerHOC onGreenFlag is not passed to the children" time="0.004">
+    </testcase>
+    <testcase classname="VMListenerHOC targetsUpdate event from vm triggers targets update action" name="VMListenerHOC targetsUpdate event from vm triggers targets update action" time="0.002">
+    </testcase>
+    <testcase classname="VMListenerHOC targetsUpdate does not dispatch if the sound recorder is visible" name="VMListenerHOC targetsUpdate does not dispatch if the sound recorder is visible" time="0.001">
+    </testcase>
+    <testcase classname="VMListenerHOC PROJECT_CHANGED does dispatch if the sound recorder is visible" name="VMListenerHOC PROJECT_CHANGED does dispatch if the sound recorder is visible" time="0.002">
+    </testcase>
+    <testcase classname="VMListenerHOC PROJECT_CHANGED does not dispatch if in fullscreen mode" name="VMListenerHOC PROJECT_CHANGED does not dispatch if in fullscreen mode" time="0.001">
+    </testcase>
+    <testcase classname="VMListenerHOC keypresses go to the vm" name="VMListenerHOC keypresses go to the vm" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="themes" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:43" time="0.174" tests="11">
+    <testcase classname="themes core functionality provides the default theme colors" name="themes core functionality provides the default theme colors" time="0">
+    </testcase>
+    <testcase classname="themes core functionality returns the dark mode" name="themes core functionality returns the dark mode" time="0.001">
+    </testcase>
+    <testcase classname="themes core functionality uses default theme colors when not specified" name="themes core functionality uses default theme colors when not specified" time="0">
+    </testcase>
+    <testcase classname="themes block helpers updates extension block colors based on theme" name="themes block helpers updates extension block colors based on theme" time="0">
+    </testcase>
+    <testcase classname="themes block helpers updates extension block icon based on theme" name="themes block helpers updates extension block icon based on theme" time="0.001">
+    </testcase>
+    <testcase classname="themes block helpers bypasses updates if using the default theme" name="themes block helpers bypasses updates if using the default theme" time="0">
+    </testcase>
+    <testcase classname="themes block helpers updates extension category based on theme" name="themes block helpers updates extension category based on theme" time="0.003">
+    </testcase>
+    <testcase classname="themes theme persistance returns the theme stored in a cookie" name="themes theme persistance returns the theme stored in a cookie" time="0.003">
+    </testcase>
+    <testcase classname="themes theme persistance returns the system theme when no cookie" name="themes theme persistance returns the system theme when no cookie" time="0">
+    </testcase>
+    <testcase classname="themes theme persistance persists theme to cookie" name="themes theme persistance persists theme to cookie" time="0.001">
+    </testcase>
+    <testcase classname="themes theme persistance clears theme when matching system preferences" name="themes theme persistance clears theme when matching system preferences" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="DragRecognizer" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.041" tests="11">
+    <testcase classname="DragRecognizer start -&gt; small drag" name="DragRecognizer start -&gt; small drag" time="0.002">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; large vertical touch move -&gt; scroll, not drag" name="DragRecognizer start -&gt; large vertical touch move -&gt; scroll, not drag" time="0">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; large vertical mouse move -&gt; mouse moves always drag)" name="DragRecognizer start -&gt; large vertical mouse move -&gt; mouse moves always drag)" time="0.001">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; large horizontal touch move -&gt; drag" name="DragRecognizer start -&gt; large horizontal touch move -&gt; drag" time="0">
+    </testcase>
+    <testcase classname="DragRecognizer after starting a scroll, it cannot become a drag" name="DragRecognizer after starting a scroll, it cannot become a drag" time="0.001">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; end unbinds" name="DragRecognizer start -&gt; end unbinds" time="0">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; end calls dragEnd callback after resetting internal state" name="DragRecognizer start -&gt; end calls dragEnd callback after resetting internal state" time="0.001">
+    </testcase>
+    <testcase classname="DragRecognizer start -&gt; reset unbinds" name="DragRecognizer start -&gt; reset unbinds" time="0.006">
+    </testcase>
+    <testcase classname="DragRecognizer scrolls do not call prevent default" name="DragRecognizer scrolls do not call prevent default" time="0.001">
+    </testcase>
+    <testcase classname="DragRecognizer confirmed drags have preventDefault called on them" name="DragRecognizer confirmed drags have preventDefault called on them" time="0">
+    </testcase>
+    <testcase classname="DragRecognizer multiple horizontal drag angles" name="DragRecognizer multiple horizontal drag angles" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Sound Editor Component" errors="0" failures="0" skipped="1" timestamp="2024-12-24T08:12:44" time="0.255" tests="8">
+    <testcase classname="Sound Editor Component matches snapshot" name="Sound Editor Component matches snapshot" time="0.027">
+    </testcase>
+    <testcase classname="Sound Editor Component delete button appears when selection is not null" name="Sound Editor Component delete button appears when selection is not null" time="0.034">
+    </testcase>
+    <testcase classname="Sound Editor Component play button appears when playhead is null" name="Sound Editor Component play button appears when playhead is null" time="0.023">
+    </testcase>
+    <testcase classname="Sound Editor Component stop button appears when playhead is not null" name="Sound Editor Component stop button appears when playhead is not null" time="0.013">
+    </testcase>
+    <testcase classname="Sound Editor Component submitting name calls the callback" name="Sound Editor Component submitting name calls the callback" time="0.015">
+    </testcase>
+    <testcase classname="Sound Editor Component effect buttons call the correct callbacks" name="Sound Editor Component effect buttons call the correct callbacks" time="0.023">
+    </testcase>
+    <testcase classname="Sound Editor Component undo and redo buttons can be disabled by canUndo/canRedo" name="Sound Editor Component undo and redo buttons can be disabled by canUndo/canRedo" time="0.047">
+    </testcase>
+    <testcase classname="Sound Editor Component undo/redo buttons call the correct callback" name="Sound Editor Component undo/redo buttons call the correct callback" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Audio Effects manager" errors="0" failures="0" skipped="1" timestamp="2024-12-24T08:12:44" time="0.22" tests="7">
+    <testcase classname="Audio Effects manager changes buffer length and playback rate for faster effect" name="Audio Effects manager changes buffer length and playback rate for faster effect" time="0.001">
+    </testcase>
+    <testcase classname="Audio Effects manager changes buffer length  and playback rate for slower effect" name="Audio Effects manager changes buffer length  and playback rate for slower effect" time="0">
+    </testcase>
+    <testcase classname="Audio Effects manager changes buffer length for echo effect" name="Audio Effects manager changes buffer length for echo effect" time="0.001">
+    </testcase>
+    <testcase classname="Audio Effects manager updates the trim positions after an effect has changed the length of selection" name="Audio Effects manager updates the trim positions after an effect has changed the length of selection" time="0.001">
+    </testcase>
+    <testcase classname="Audio Effects manager process starts the offline rendering context and returns a promise" name="Audio Effects manager process starts the offline rendering context and returns a promise" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Audio Effects manager reverse effect strictly reverses the samples" name="Audio Effects manager reverse effect strictly reverses the samples" time="0.001">
+    </testcase>
+    <testcase classname="Effects all effects provide an input and output that are connected" name="Effects all effects provide an input and output that are connected" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="computeRMS" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.067" tests="12">
+    <testcase classname="computeRMS returns 0 when given no samples" name="computeRMS returns 0 when given no samples" time="0.001">
+    </testcase>
+    <testcase classname="computeRMS returns the RMS scaled by the given unity value and square rooted" name="computeRMS returns the RMS scaled by the given unity value and square rooted" time="0">
+    </testcase>
+    <testcase classname="computeRMS uses a default unity value of 0.55" name="computeRMS uses a default unity value of 0.55" time="0">
+    </testcase>
+    <testcase classname="computeChunkedRMS computes the rms for each chunk based on chunk size" name="computeChunkedRMS computes the rms for each chunk based on chunk size" time="0.001">
+    </testcase>
+    <testcase classname="computeChunkedRMS chunk size larger than sample size creates single chunk" name="computeChunkedRMS chunk size larger than sample size creates single chunk" time="0">
+    </testcase>
+    <testcase classname="computeChunkedRMS chunk size as multiple is handled correctly" name="computeChunkedRMS chunk size as multiple is handled correctly" time="0">
+    </testcase>
+    <testcase classname="downsampleIfNeeded returns given data when no downsampling needed" name="downsampleIfNeeded returns given data when no downsampling needed" time="0.001">
+    </testcase>
+    <testcase classname="downsampleIfNeeded downsamples to 22050 if that puts it under the limit" name="downsampleIfNeeded downsamples to 22050 if that puts it under the limit" time="0">
+    </testcase>
+    <testcase classname="downsampleIfNeeded fails if resampling would not put it under the limit" name="downsampleIfNeeded fails if resampling would not put it under the limit" time="0.001">
+    </testcase>
+    <testcase classname="dropEveryOtherSample result is half the length" name="dropEveryOtherSample result is half the length" time="0">
+    </testcase>
+    <testcase classname="dropEveryOtherSample result contains only even-index items" name="dropEveryOtherSample result contains only even-index items" time="0">
+    </testcase>
+    <testcase classname="dropEveryOtherSample result sampleRate is given sampleRate / 2" name="dropEveryOtherSample result sampleRate is given sampleRate / 2" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Slider Prompt Container" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.244" tests="6">
+    <testcase classname="Slider Prompt Container Min/max are shown with decimal when isDiscrete is false" name="Slider Prompt Container Min/max are shown with decimal when isDiscrete is false" time="0.006">
+    </testcase>
+    <testcase classname="Slider Prompt Container Min/max are NOT shown with decimal when isDiscrete is true" name="Slider Prompt Container Min/max are NOT shown with decimal when isDiscrete is true" time="0.001">
+    </testcase>
+    <testcase classname="Slider Prompt Container Entering a number with a decimal submits with isDiscrete=false" name="Slider Prompt Container Entering a number with a decimal submits with isDiscrete=false" time="0.003">
+    </testcase>
+    <testcase classname="Slider Prompt Container Entering integers submits with isDiscrete=true" name="Slider Prompt Container Entering integers submits with isDiscrete=true" time="0.002">
+    </testcase>
+    <testcase classname="Slider Prompt Container Enter button submits the form" name="Slider Prompt Container Enter button submits the form" time="0.002">
+    </testcase>
+    <testcase classname="Slider Prompt Container Validates number-ness before submitting" name="Slider Prompt Container Validates number-ness before submitting" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="SBFileUploaderHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.389" tests="5">
+    <testcase classname="SBFileUploaderHOC correctly sets title with .sb3 filename" name="SBFileUploaderHOC correctly sets title with .sb3 filename" time="0.012">
+    </testcase>
+    <testcase classname="SBFileUploaderHOC correctly sets title with .sb2 filename" name="SBFileUploaderHOC correctly sets title with .sb2 filename" time="0.002">
+    </testcase>
+    <testcase classname="SBFileUploaderHOC correctly sets title with .sb filename" name="SBFileUploaderHOC correctly sets title with .sb filename" time="0.002">
+    </testcase>
+    <testcase classname="SBFileUploaderHOC sets blank title with filename with no extension" name="SBFileUploaderHOC sets blank title with filename with no extension" time="0.001">
+    </testcase>
+    <testcase classname="SBFileUploaderHOC if isLoadingUpload becomes true, without fileToUpload set, will call cancelFileUpload" name="SBFileUploaderHOC if isLoadingUpload becomes true, without fileToUpload set, will call cancelFileUpload" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="indexForPositionOnList" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.053" tests="3">
+    <testcase classname="indexForPositionOnList returns null when not given any boxes" name="indexForPositionOnList returns null when not given any boxes" time="0.001">
+    </testcase>
+    <testcase classname="indexForPositionOnList wrapped list with incomplete last row LTR" name="indexForPositionOnList wrapped list with incomplete last row LTR" time="0.001">
+    </testcase>
+    <testcase classname="indexForPositionOnList wrapped list with incomplete last row RTL" name="indexForPositionOnList wrapped list with incomplete last row RTL" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpriteSelectorItemComponent" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:44" time="0.171" tests="6">
+    <testcase classname="SpriteSelectorItemComponent matches snapshot when selected" name="SpriteSelectorItemComponent matches snapshot when selected" time="0.018">
+    </testcase>
+    <testcase classname="SpriteSelectorItemComponent matches snapshot when given a number and details to show" name="SpriteSelectorItemComponent matches snapshot when given a number and details to show" time="0.003">
+    </testcase>
+    <testcase classname="SpriteSelectorItemComponent does not have a close box when not selected" name="SpriteSelectorItemComponent does not have a close box when not selected" time="0.005">
+    </testcase>
+    <testcase classname="SpriteSelectorItemComponent triggers callback when Box component is clicked" name="SpriteSelectorItemComponent triggers callback when Box component is clicked" time="0.019">
+    </testcase>
+    <testcase classname="SpriteSelectorItemComponent triggers callback when CloseButton component is clicked" name="SpriteSelectorItemComponent triggers callback when CloseButton component is clicked" time="0.004">
+    </testcase>
+    <testcase classname="SpriteSelectorItemComponent it has a context menu with delete menu item and callback" name="SpriteSelectorItemComponent it has a context menu with delete menu item and callback" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpriteSelectorItem Container" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.254" tests="2">
+    <testcase classname="SpriteSelectorItem Container should delete the sprite, when called without `withDeleteConfirmation`" name="SpriteSelectorItem Container should delete the sprite, when called without `withDeleteConfirmation`" time="0.017">
+    </testcase>
+    <testcase classname="SpriteSelectorItem Container should initiate sprite deletion, when called `withDeleteConfirmation`" name="SpriteSelectorItem Container should initiate sprite deletion, when called `withDeleteConfirmation`" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="SaveStatus container" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.152" tests="3">
+    <testcase classname="SaveStatus container if there are inline messages, they are shown instead of save now" name="SaveStatus container if there are inline messages, they are shown instead of save now" time="0.013">
+    </testcase>
+    <testcase classname="SaveStatus container save now is shown if there are project changes and no inline messages" name="SaveStatus container save now is shown if there are project changes and no inline messages" time="0.003">
+    </testcase>
+    <testcase classname="SaveStatus container neither is shown if there are no project changes or inline messages" name="SaveStatus container neither is shown if there are no project changes or inline messages" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="HashParserHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.067" tests="4">
+    <testcase classname="HashParserHOC when there is a hash, it passes the hash as projectId" name="HashParserHOC when there is a hash, it passes the hash as projectId" time="0.012">
+    </testcase>
+    <testcase classname="HashParserHOC when there is no hash, it passes 0 as the projectId" name="HashParserHOC when there is no hash, it passes 0 as the projectId" time="0.002">
+    </testcase>
+    <testcase classname="HashParserHOC when the hash is not a number, it passes 0 as projectId" name="HashParserHOC when the hash is not a number, it passes 0 as projectId" time="0.002">
+    </testcase>
+    <testcase classname="HashParserHOC when hash change happens, the projectId state is changed" name="HashParserHOC when hash change happens, the projectId state is changed" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="detectLocale" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.049" tests="9">
+    <testcase classname="detectLocale uses locale from the URL when present" name="detectLocale uses locale from the URL when present" time="0">
+    </testcase>
+    <testcase classname="detectLocale is case insensitive" name="detectLocale is case insensitive" time="0.001">
+    </testcase>
+    <testcase classname="detectLocale also accepts lang from the URL when present" name="detectLocale also accepts lang from the URL when present" time="0">
+    </testcase>
+    <testcase classname="detectLocale ignores unsupported locales" name="detectLocale ignores unsupported locales" time="0">
+    </testcase>
+    <testcase classname="detectLocale ignores other parameters" name="detectLocale ignores other parameters" time="0">
+    </testcase>
+    <testcase classname="detectLocale uses navigator language property for default if supported" name="detectLocale uses navigator language property for default if supported" time="0.001">
+    </testcase>
+    <testcase classname="detectLocale ignores navigator language property if unsupported" name="detectLocale ignores navigator language property if unsupported" time="0">
+    </testcase>
+    <testcase classname="detectLocale works with an empty locale" name="detectLocale works with an empty locale" time="0">
+    </testcase>
+    <testcase classname="detectLocale if multiple, uses the first locale" name="detectLocale if multiple, uses the first locale" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProjectFetcherHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.122" tests="2">
+    <testcase classname="ProjectFetcherHOC when there is an id, it tries to update the store with that id" name="ProjectFetcherHOC when there is an id, it tries to update the store with that id" time="0.009">
+    </testcase>
+    <testcase classname="ProjectFetcherHOC when there is a reduxProjectId and isFetchingWithProjectId is true, it loads the project" name="ProjectFetcherHOC when there is a reduxProjectId and isFetchingWithProjectId is true, it loads the project" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Monitor Component" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.353" tests="2">
+    <testcase classname="Monitor Component it selects the correct colors based on default theme" name="Monitor Component it selects the correct colors based on default theme" time="0.003">
+    </testcase>
+    <testcase classname="Monitor Component it selects the correct colors based on dark mode theme" name="Monitor Component it selects the correct colors based on dark mode theme" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="MonitorListComponent" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.711" tests="2">
+    <testcase classname="MonitorListComponent it renders the correct step size for discrete sliders" name="MonitorListComponent it renders the correct step size for discrete sliders" time="0.039">
+    </testcase>
+    <testcase classname="MonitorListComponent it renders the correct step size for non-discrete sliders" name="MonitorListComponent it renders the correct step size for non-discrete sliders" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cards component" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.169" tests="2">
+    <testcase classname="Cards component showVideos=true shows the video step" name="Cards component showVideos=true shows the video step" time="0.028">
+    </testcase>
+    <testcase classname="Cards component showVideos=false shows the title image/name instead of video step" name="Cards component showVideos=false shows the title image/name instead of video step" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="VMListenerHOC" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.044" tests="4">
+    <testcase classname="VMListenerHOC it passes the props on initial render " name="VMListenerHOC it passes the props on initial render " time="0.009">
+    </testcase>
+    <testcase classname="VMListenerHOC it does not rerender if throttled prop is updated too soon" name="VMListenerHOC it does not rerender if throttled prop is updated too soon" time="0.001">
+    </testcase>
+    <testcase classname="VMListenerHOC it does rerender if throttled prop is updated after throttle timeout" name="VMListenerHOC it does rerender if throttled prop is updated after throttle timeout" time="0.002">
+    </testcase>
+    <testcase classname="VMListenerHOC it does rerender if a non-throttled prop is changed" name="VMListenerHOC it does rerender if a non-throttled prop is changed" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToggleButtons" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.043" tests="2">
+    <testcase classname="ToggleButtons renders multiple buttons" name="ToggleButtons renders multiple buttons" time="0.003">
+    </testcase>
+    <testcase classname="ToggleButtons calls correct click handler" name="ToggleButtons calls correct click handler" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorBoundary" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.156" tests="1">
+    <testcase classname="ErrorBoundary ErrorBoundary shows children before error and CrashMessageComponent after" name="ErrorBoundary ErrorBoundary shows children before error and CrashMessageComponent after" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="MenuBar Component" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:45" time="0.849" tests="3">
+    <testcase classname="MenuBar Component menu bar with no About handler has no About button" name="MenuBar Component menu bar with no About handler has no About button" time="0.021">
+    </testcase>
+    <testcase classname="MenuBar Component menu bar with an About handler has an About button" name="MenuBar Component menu bar with an About handler has an About button" time="0.005">
+    </testcase>
+    <testcase classname="MenuBar Component clicking on About button calls the handler" name="MenuBar Component clicking on About button calls the handler" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.047" tests="7">
+    <testcase classname=" returns the tutorial ID if the urlId matches" name=" returns the tutorial ID if the urlId matches" time="0.001">
+    </testcase>
+    <testcase classname=" returns null if no matching urlId" name=" returns null if no matching urlId" time="0.001">
+    </testcase>
+    <testcase classname=" returns null if empty template" name=" returns null if empty template" time="0">
+    </testcase>
+    <testcase classname=" returns null if no query param" name=" returns null if no query param" time="0">
+    </testcase>
+    <testcase classname=" returns null if unrecognized template" name=" returns null if unrecognized template" time="0">
+    </testcase>
+    <testcase classname=" takes the first of multiple" name=" takes the first of multiple" time="0">
+    </testcase>
+    <testcase classname=" returns all for the tutorial library shortcut" name=" returns all for the tutorial library shortcut" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.034" tests="3">
+    <testcase classname=" initialState" name=" initialState" time="0">
+    </testcase>
+    <testcase classname=" set full screen mode" name=" set full screen mode" time="0">
+    </testcase>
+    <testcase classname=" set player mode" name=" set player mode" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="IconButtonComponent" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.037" tests="2">
+    <testcase classname="IconButtonComponent matches snapshot" name="IconButtonComponent matches snapshot" time="0.002">
+    </testcase>
+    <testcase classname="IconButtonComponent triggers callback when clicked" name="IconButtonComponent triggers callback when clicked" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Controls component" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:46" time="0.143" tests="2">
+    <testcase classname="Controls component shows turbo mode when in turbo mode" name="Controls component shows turbo mode when in turbo mode" time="0.012">
+    </testcase>
+    <testcase classname="Controls component triggers the right callbacks when clicked" name="Controls component triggers the right callbacks when clicked" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Shared Audio Context" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.036" tests="3">
+    <testcase classname="Shared Audio Context returns empty object without user gesture" name="Shared Audio Context returns empty object without user gesture" time="0">
+    </testcase>
+    <testcase classname="Shared Audio Context returns AudioContext when mousedown is triggered" name="Shared Audio Context returns AudioContext when mousedown is triggered" time="0.001">
+    </testcase>
+    <testcase classname="Shared Audio Context returns AudioContext when touchstart is triggered" name="Shared Audio Context returns AudioContext when touchstart is triggered" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="defaultProject" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.042" tests="1">
+    <testcase classname="defaultProject assets referenced by the project are included" name="defaultProject assets referenced by the project are included" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.04" tests="2">
+    <testcase classname=" initialState" name=" initialState" time="0.001">
+    </testcase>
+    <testcase classname=" updateMetrics action creator" name=" updateMetrics action creator" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ButtonComponent" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.035" tests="2">
+    <testcase classname="ButtonComponent matches snapshot" name="ButtonComponent matches snapshot" time="0.002">
+    </testcase>
+    <testcase classname="ButtonComponent triggers callback when clicked" name="ButtonComponent triggers callback when clicked" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="translateVideo" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.024" tests="4">
+    <testcase classname="translateVideo returns the id if it is not found" name="translateVideo returns the id if it is not found" time="0">
+    </testcase>
+    <testcase classname="translateVideo returns the expected id for Japanese" name="translateVideo returns the expected id for Japanese" time="0">
+    </testcase>
+    <testcase classname="translateVideo returns the expected id for English" name="translateVideo returns the expected id for English" time="0.001">
+    </testcase>
+    <testcase classname="translateVideo returns the English id for non-existent locales" name="translateVideo returns the English id for non-existent locales" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="codePayload" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.041" tests="1">
+    <testcase classname="codePayload base64 encodes the blocks as json" name="codePayload base64 encodes the blocks as json" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Opcode Labels" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.036" tests="2">
+    <testcase classname="Opcode Labels day of week label" name="Opcode Labels day of week label" time="0.001">
+    </testcase>
+    <testcase classname="Opcode Labels unspecified opcodes default to extension category and opcode as label" name="Opcode Labels unspecified opcodes default to extension category and opcode as label" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="SVG Font Parsing" errors="0" failures="0" skipped="0" timestamp="2024-12-24T08:12:47" time="0.071" tests="1">
+    <testcase classname="SVG Font Parsing Has font regexp works" name="SVG Font Parsing Has font regexp works" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
